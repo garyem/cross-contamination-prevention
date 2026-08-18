@@ -39,6 +39,9 @@
     display:flex;
     flex-direction:column;
     justify-content:center;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-rendering:optimizeLegibility;
   }
   .brand-row{
     display:flex;
@@ -63,16 +66,19 @@
     white-space:nowrap;
   }
   h1{
-    font-size:22px;
+    font-size:23px;
     margin:14px 0 4px;
-    font-weight:800;
-    letter-spacing:-0.01em;
+    font-weight:900;
+    letter-spacing:-0.02em;
+    line-height:1.15;
+    text-shadow:0 1px 3px rgba(0,0,0,0.2);
   }
   .subtitle{
     font-size:13.5px;
-    opacity:0.9;
+    opacity:0.95;
     margin:0;
     max-width:52ch;
+    font-weight:500;
   }
 
   /* ---------- Progress ---------- */
